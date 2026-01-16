@@ -37,8 +37,4 @@
 import { RouterView } from 'vue-router'
 </script>
 
-<!-- Assicurati di aver importato Bootstrap nel tuo progetto -->
-<style>
-/* Aggiungi eventuali stili personalizzati qui */
-</style>
 
