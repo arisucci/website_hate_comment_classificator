@@ -61,7 +61,7 @@ def load_model():
     print(file_path)
 
     
-    # Carica il modello SVM serializzato
+    # Carica il modello serializzato
     with open(file_path, 'rb') as f:
         model = pickle.load(f)
     return model
@@ -133,4 +133,5 @@ def classify_comment():
 if __name__ == '__main__':
 
     app.run(debug=True, port=5000)
+
     
